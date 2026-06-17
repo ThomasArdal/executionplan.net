@@ -4,7 +4,6 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [createVuePlugin()],
-  base: process.env.GITHUB_ACTIONS ? '/executionplan.net/' : '/',
   resolve: {
     alias: {
       // vue-json-tree's main entry is a .vue source file Vite can't process from
